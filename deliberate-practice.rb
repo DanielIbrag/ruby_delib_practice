@@ -27,9 +27,21 @@
 #   p 0
 # end
 # 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
-var = 900
-if var > 9000
-  p 1
-else
-  p -1
-end
+# var = 900
+# if var > 9000
+#   p 1
+# else
+#   p -1
+# end
+# 5. Use a variable to store a number, then write a condition that prints 9 if the number is less than 10, prints 19 if the number is less than 20, prints 29 if the number is less than 30, and prints -1 otherwise (only one print statement should occur).
+
+# var = 29
+# if var < 10
+#   print 9
+# elsif var < 20
+#   print 19
+# elsif var < 30
+#   print 29
+# else
+#   print -1
+# end
