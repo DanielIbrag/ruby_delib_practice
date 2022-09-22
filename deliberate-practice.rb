@@ -77,7 +77,27 @@
 
 # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
 
+# var1 = -100
+# var2 = -100
+# if var1 < 0 && var2 > 0
+#   print 1
+# else
+#   print 0
+# end
+
 # 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur).
+# var = 45
+# if var > 80
+#   print 5
+# elsif var > 60
+#   print 4
+# elsif var > 40
+#   print 3
+# elsif var > 20
+#   print 2
+# else
+#   print 1
+# end
 
 # Given an array of numbers, write a function that returns a new array that contains all numbers from the original array that are less than 100.
 
