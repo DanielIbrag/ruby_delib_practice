@@ -179,16 +179,26 @@
 # p moveover([2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2])
 
 # 1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
-puts "what is your First name?"
-first_name = gets.chomp
-puts "what is your last name?"
-last_name = gets.chomp
+# puts "what is your First name?"
+# first_name = gets.chomp
+# puts "what is your last name?"
+# last_name = gets.chomp
 
-puts "your first name is " + first_name + " and your last name is " + last_name
+# puts "your first name is " + first_name + " and your last name is " + last_name
 
 # 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
-puts "your first name is #{first_name} and your last name is #{last_name}"
+# puts "what is your First name?"
+# first_name = gets.chomp
+# puts "what is your last name?"
+# puts "your first name is #{first_name} and your last name is #{last_name}"
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+puts "please input a word!"
+word = gets.chomp
+if word == "marco"
+  print "Polo!"
+else
+  print word
+end
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
 
