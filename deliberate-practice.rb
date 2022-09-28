@@ -201,17 +201,24 @@
 # end
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
-puts "Please input a color! "
-color1 = gets.chomp
-puts "Please input a second color! "
-color2 = gets.chomp
-puts "Please input a third color! "
-color3 = gets.chomp
-print "your first color is " + color1 + " and your second color is " + color2 + " and lastly your final color is " + color3
+# puts "Please input a color! "
+# color1 = gets.chomp
+# puts "Please input a second color! "
+# color2 = gets.chomp
+# puts "Please input a third color! "
+# color3 = gets.chomp
+# print "your first color is " + color1 + " and your second color is " + color2 + " and lastly your final color is " + color3
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
-print "your first color is #{color1} your second color is #{color2} and your last color is #{color3}"
+# print "your first color is #{color1} your second color is #{color2} and your last color is #{color3}"
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+puts "what is your name?"
+name = gets.chomp
+if name != "Santa"
+  print "You're not Santa"
+else
+  print name
+end
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
