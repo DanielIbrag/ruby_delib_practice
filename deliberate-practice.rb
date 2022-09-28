@@ -207,7 +207,7 @@ puts "Please input a second color! "
 color2 = gets.chomp
 puts "Please input a third color! "
 color3 = gets.chomp
-
+print "your first color is " + color1 + " and your second color is " + color2 + " and lastly your final color is " + color3
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
