@@ -212,15 +212,18 @@
 # print "your first color is #{color1} your second color is #{color2} and your last color is #{color3}"
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
-puts "what is your name?"
-name = gets.chomp
-if name != "Santa"
-  print "You're not Santa"
-else
-  print name
-end
+# puts "what is your name?"
+# name = gets.chomp
+# if name != "Santa"
+#   print "You're not Santa"
+# else
+#   print name
+# end
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+title = "Harry Potter"
+author = "J.K. Rowling"
+print "The title of this novel is " + title + " by bestselling author " + author
 
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 
