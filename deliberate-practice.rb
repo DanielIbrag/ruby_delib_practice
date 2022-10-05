@@ -229,11 +229,18 @@
 # print "the title of this novel is #{title} by bestselling author #{author}"
 
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
-puts "Please Enter a password: "
-password = gets.chomp
-if password == "Joshua"
-  print "Shall we play a game?"
-else
-  print "Access denied"
-end
+# puts "Please Enter a password: "
+# password = gets.chomp
+# if password == "Joshua"
+#   print "Shall we play a game?"
+# else
+#   print "Access denied"
+# end
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+puts "Please chose the first city you are picking."
+city1 = gets.chomp
+puts "Please chose the second city you are picking."
+city2 = gets.chomp
+puts "Please choose the last city "
+city3 = gets.chomp
+print "The first city you chose is " + city1 + " the second city you chose is " + city2 + " and the last city thst you chose is " + city3
