@@ -237,10 +237,47 @@
 #   print "Access denied"
 # end
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
-puts "Please chose the first city you are picking."
-city1 = gets.chomp
-puts "Please chose the second city you are picking."
-city2 = gets.chomp
-puts "Please choose the last city "
-city3 = gets.chomp
-print "The first city you chose is " + city1 + " the second city you chose is " + city2 + " and the last city thst you chose is " + city3
+# puts "Please chose the first city you are picking."
+# city1 = gets.chomp
+# puts "Please chose the second city you are picking."
+# city2 = gets.chomp
+# puts "Please choose the last city "
+# city3 = gets.chomp
+# print "The first city you chose is " + city1 + " the second city you chose is " + city2 + " and the last city thst you chose is " + city3
+# 1. Write a program that asks the user to enter a word, then prints that word with all capital letters.
+# puts "please input a word"
+# word = gets.chomp
+# p word.upcase
+
+# 2. Write a program that asks the user to enter a number, then prints "That's a big number" if the number is greater than 100.
+# puts "please enter a number"
+# number = gets.chomp
+# number = number.to_i
+# if number > 100
+#   print "Thats a big number"
+# end
+
+# 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
+# puts "enter the first number"
+# number1 = gets.chomp
+# number1 = number1.to_i
+# puts "enter the second number"
+# number2 = gets.chomp
+# number2 = number2.to_i
+# puts number1 + number2
+
+# 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+# puts "please enter a word"
+# word = gets.chomp
+# puts word.reverse
+# 5. Write a program that asks the user to enter a number, then prints the number times 10.
+
+# 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+# 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
+
+# 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
+
+# 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
+
+# 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
